@@ -1,0 +1,71 @@
+.container{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+
+}
+.person{
+    height: 240px;
+    width: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.image{
+    width: 300px;
+    height: 200px;
+}
+.name{
+    width: 300px;
+    height: 40px;
+}
+.imgsize{
+    width: 300px;
+    height: 200px;
+}
+.see{
+    background-color: violet;
+    height: 150px;
+    width: 150px;
+}
+.profile-container{
+    height: 250px;
+    width: 90vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.background-image{
+    width: 300px;
+    height: 200px;
+    background-color: wheat;
+}
+.content-here{
+    width: 700px;
+    height: 200px;
+    background-color: black;
+    border: solid white 1px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.friends-container{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+    background-color: black;
+}
+.second-main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
